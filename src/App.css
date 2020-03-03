@@ -68,3 +68,24 @@ li {
   margin-bottom: 10px;
   color: #1d3b53;
 }
+
+.motion-area {
+  margin: auto;
+}
+
+.slider {
+  background-color: #fff;
+  border-radius: 20px;
+  margin: auto;
+  height: 90px;
+  width: 90px;
+}
+
+.slider-drag-area {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  width: 380px;
+  margin: auto;
+  background-color: #1d3b53;
+}

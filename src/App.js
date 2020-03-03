@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import './App.css';
-import { Animate } from './Demo1';
-import { Keyframes } from './Demo2';
-import { Gestures } from './Demo3';
-import { Drag } from './Demo4';
-import { Variants } from './Demo5';
-import { SVG } from './Demo6';
-import { Exit } from './Demo7';
+import { Animate } from './Demos/Animate';
+import { Keyframes } from './Demos/Keyframes';
+import { Gestures } from './Demos/Gestures';
+import { Drag } from './Demos/Drag';
+import { Variants } from './Demos/Variants';
+import { SVG } from './Demos/SVG';
+import { Exit } from './Demos/Exit';
+import { MotionValues } from './Demos/MotionValues';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <li className="demo-item" onClick={() => setDemo(5)}>Variants</li>
         <li className="demo-item" onClick={() => setDemo(6)}>SVG</li>
         <li className="demo-item" onClick={() => setDemo(7)}>Exit</li>
+        <li className="demo-item" onClick={() => setDemo(8)}>MotionValues</li>
       </ul>
       <section className="demo-area">
         {demo === 1 && <Animate />}
@@ -31,6 +33,7 @@ function App() {
         {demo === 5 && <Variants />}
         {demo === 6 && <SVG />}
         {demo === 7 && <Exit />}
+        {demo === 8 && <MotionValues />}
       </section>
     </>
   );
