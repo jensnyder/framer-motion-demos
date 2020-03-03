@@ -1,3 +1,5 @@
 ## Framer Motion Demos
 
-[Slides](https://slides.com/jensnyder/animations-in-react).
+Animation Demos using [Framer Motion] (https://www.framer.com/api/motion/)
+
+[Slides](https://slides.com/jensnyder/animations-in-react)
